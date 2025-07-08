@@ -32,10 +32,15 @@ A simple and powerful *Django-based User Management System* that supports regist
 
 > 🖼 Add screenshots of:
 - Register Page
-- ![Register]("/Register-page.png)
+ ![Register]("./sample/register.png)
 - Login Page
+ ![Register]("./sample/login.png)
+
 - Profile Page
+ ![Register]("./sample/profile.png)
+
 - Admin Panel
+   ![Register]("./sample/login.png)
 
 ---
 
