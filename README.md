@@ -49,26 +49,21 @@ user_management/
 ---
 
 ### Installation & Setup 
-1. Clone the repository
-```
-git clone https://github.com/Zambagarrah/Django-User-Management-System.git
-cd Django-User-Management-System
-```
 
-2. Create virtual environment & install requirements
+1. Create virtual environment & install requirements
 ```
 python -m venv env
 source env/bin/activate # On Windows: env\Scripts\activate
 pip install django
 ```
 
-3. Run migrations
+2. Run migrations
 ```
 python manage.py makemigrations
 python manage.py migrate
 ```
 
-4. Create a superuser (admin account) 
+3. Create a superuser (admin account) 
 ``` python manage.py createsuperuser ```
 
 5. Launch the server
@@ -90,11 +85,6 @@ python manage.py migrate
 
 ---
 
-## Email Verification (Mock)
-
-This project uses Django's console email backend for development. Verification emails are printed to the console where you can find the activation link to verify your account.
-
----
 
 ## Testing
 
@@ -112,29 +102,17 @@ Tests cover models and views to ensure correctness and stability.
 ![Home Page](./assets/home-page.png)
 
 ### Registration Page
+![Screenshot (57)](https://github.com/user-attachments/assets/b2dfea5a-d7b0-4f3a-8bfd-e08a457fc8b7)
 
-![Registration Page](./assets/register-page.png)
 
 ### Login Page
 
-![Login Page](./assets/login-page.png)
+![Screenshot (56)](https://github.com/user-attachments/assets/67623e8b-beb4-467d-87f6-82c71b7afe0c)
 
-### Profile Page
 
-![Profile Page](./assets/edit-profile.png)
 
-### Admin Panel
 
-![Admin Panel](./assets/admin-panel.png)
 
----
-
-## Git Workflow
-
-- The project development was done with a maximum of 10 commits.
-- Each commit has a clear title and detailed message explaining the changes.
-
----
 
 ### Contact
 
