@@ -1,12 +1,12 @@
 # Django User Management System
 
-A simple Django-based user management system featuring user registration, email verification (mocked), profile management, password change, and admin panel functionalities.
+A simple Django-based user management system featuring user registration, profile management, password change, and admin panel functionalities.
 
 ---
 
 ## Project Description
 
-This project provides a clean and scalable user management system built with Django. It supports user registration with email verification (mocked via console), profile viewing and editing, password management, and an admin panel for managing all users. The system distinguishes between normal users and admin users with appropriate access controls, and uses Bootstrap for a responsive, user-friendly interface.
+This project provides a clean and scalable user management system built with Django. It supports, profile viewing and editing, password management, and an admin panel for managing all users. The system distinguishes between normal users and admin users with appropriate access controls, and uses Bootstrap for a responsive, user-friendly interface.
 
 ---
 
@@ -97,9 +97,8 @@ Tests cover models and views to ensure correctness and stability.
 
 ## Screenshots
 
-### Home Page
 
-![Home Page](./assets/home-page.png)
+
 
 ### Registration Page
 ![Screenshot (57)](https://github.com/user-attachments/assets/b2dfea5a-d7b0-4f3a-8bfd-e08a457fc8b7)
@@ -116,7 +115,7 @@ Tests cover models and views to ensure correctness and stability.
 
 ### Contact
 
-- Email: [marvinbernard2018@gmail.com](mailto:marvinbernard2018@gmail.com)
-- GitHub: [https://github.com/Mavoochie](https://github.com/Mavoochie)
+- Email: lmlilian702@gmail.com
+- GitHub: [https://github.com/lilo-creator](https://github.com/lilo-creator/user-management-django)
 
 Feel free to reach out for collaborations, freelance projects, or tech discussions!
