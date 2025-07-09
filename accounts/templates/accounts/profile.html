@@ -1,0 +1,26 @@
+{% extends 'base.html' %}
+
+{% block title %}Profile{% endblock %}
+
+{% block content %}
+<div class="container vh-100 d-flex align-items-center justify-content-center">
+  <div class="col-md-6 col-lg-5">
+    <div class="card shadow border-0">
+      <div class="card-body px-4 py-5 text-center">
+        <h2 class="mb-4 text-primary">Welcome, {{ user.username }}!</h2>
+        <ul class="list-group mb-4 text-start">
+          <li class="list-group-item">📧 Email: {{ user.email }}</li>
+          <li class="list-group-item">✅ Verified: {{ user.is_verified }}</li>
+        </ul>
+        <div class="d-grid gap-2">
+          <a href="{% url 'edit_profile' %}" class="btn btn-outline-secondary">Edit Profile</a>
+          <a href="{% url 'change_password' %}" class="btn btn-outline-warning">Change Password</a>
+          {% if not user.is_verified %}
+            <a href="{% url 'verify_user' %}" class="btn btn-outline-success">Verify Account</a>
+          {% endif %}
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+{% endblock %}
